@@ -10,63 +10,205 @@
 <h1>  EQUIPO ALFA BUENA MARAVILLA</h1>
 <label for="acuerdo">Estamos deacuerdo en no estar deacuerdo?</label>
 <input type="checkbox">
-    <table border="1">
+<table border="1">
+    <tr>
+        <th> Nombre del equipo</th>
+        <th> Integrantes </th>
+        <th> Ciudad </th>
+        <th> Imagen </th>
+    </tr>
+    <tr>
+        <td>Equipo ABM</td>
+        <td>
+            <input type="text" id="nombre" name="nombre">
+        </td>
+        <td>
+            <select name="Ciudades" id="ciudades">
+                <option value="1"> Bucaramanga</option>
+                <option value="2"> Villavicencio</option>
+                <option value="3"> Bogotá</option>
+            </select>
+        </td>
+        <td>
+            <img src="img/Burro.webp" alt="Burro" width="60px">
+        </td>
+    </tr>
+    <tr>
+        <td>Equipo ABM</td>
+        <td>
+            <input type="text" id="nombre" name="nombre">
+        </td>
+        <td>
+            <select name="Ciudades" id="ciudades">
+                <option value="1"> Bucaramanga</option>
+                <option value="2"> Villavicencio</option>
+                <option value="3"> Bogotá</option>
+            </select>
+        </td>
+        <td>
+            <img src="img/Jengi_001.webp" alt="Galleta" width="90px">
+        </td>
+    </tr>
+    <tr>
+        <td>Equipo ABM</td>
+        <td>
+            <input type="text" id="nombre" name="nombre">
+        </td>
+        <td>
+            <select name="Ciudades" id="ciudades">
+                <option value="1"> Bucaramanga</option>
+                <option value="2"> Villavicencio</option>
+                <option value="3"> Bogotá</option>
+            </select>
+        </td>
+        <td>
+            <img src="img/pinocho.png" alt="Burro" width="100px">
+        </td>
+    </tr>
+</table>
+<tr>
+    <td>
+        Escuche la canción de Sherk:
+    </td>
+    <td>
+        <input type="button" onclick="alert('♫♫♫♫♫♫')" value="Canción">
+    </td>
+</tr>
+</form>
+<form action="https://www.google.com" method="get" target="_blank">
+    <table>
         <tr>
-            <th> Nombre  del equipo</th>
-            <th> Integrantes </th>
-            <th> Ciudad </th>
-            <th> Imagen </th>
+            <td>
+                Seleccione el color:
+            </td>
+            <td>
+                <input type="color" name="color" id="color">
+            </td>
         </tr>
         <tr>
-            <td>Equipo ABM</td>
             <td>
-                <input type="text" id="nombre" name="nombre">
+                Fecha de nacimiento.
             </td>
             <td>
-                <select name="Ciudades" id="ciudades"> 
-                    <option value="1"> Bucaramanga</option>
-                    <option value="2"> Villavicencio</option>
-                    <option value="3"> Bogotá</option>
-                </select>
-            </td>
-            <td>
-                <img src="img/Burro.webp" alt="Burro" width="200px">
+                <input type="date" name="fecha" id="fecha">
             </td>
         </tr>
         <tr>
-            <td>Equipo ABM</td>
             <td>
-                <input type="text" id="nombre" name="nombre">
+                Fecha de diligenciamiento:
             </td>
             <td>
-                <select name="Ciudades" id="ciudades"> 
-                    <option value="1"> Bucaramanga</option>
-                    <option value="2"> Villavicencio</option>
-                    <option value="3"> Bogotá</option>
-                </select>
-            </td>
-            <td>
-                <img src="img/Jengi_001.webp" alt="Galleta" width="200px">
+                <input type="datetime-local" name="fechadiligenciamiento" id="fechadiligenciamiento">
             </td>
         </tr>
         <tr>
-            <td>Equipo ABM</td>
             <td>
-                <input type="text" id="nombre" name="nombre">
+                Correo electrónico:
             </td>
             <td>
-                <select name="Ciudades" id="ciudades"> 
-                    <option value="1"> Bucaramanga</option>
-                    <option value="2"> Villavicencio</option>
-                    <option value="3"> Bogotá</option>
-                </select>
-            </td>
-            <td>
-                <img src="img/pinocho.png" alt="Burro" width="200px">
+                <input type="email" name="email" id="email">
             </td>
         </tr>
-
+        <tr>
+            <td>
+                Cargue su archivo:
+            </td>
+            <td>
+                <input type="file" name="file" id="file">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Security Token
+            </td>
+            <td>
+                <input id="prodId" name="prodId" type="hidden" value="01234">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Mes de cumpleaños:
+            </td>
+            <td>
+                <input type="month" name="month" id="month">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Número de personajes de Sherk:
+            </td>
+            <td>
+                <input type="number" name="number" id="number">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Contraseña ABM:
+            </td>
+            <td>
+                <input type="password" name="password" id="password" placeholder="***********">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Seleccione su personaje favorito:
+            </td>
+            <td>
+                <label for="1">Sherk</label>
+                <input type="radio" name="personaje" id="1" value="Sherk">
+                <label for="2">Fiona</label>
+                <input type="radio" name="personaje" id="2" value="Fiona">
+                <label for="3">Burro</label>
+                <input type="radio" name="personaje" id="3" value="Burro">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Nivel de buena onda:
+            </td>
+            <td>
+                <input type="range" name="range" id="range">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Busque en muy muy lejano:
+            </td>
+            <td>
+                <input type="search" name="search" id="search">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Digite el teléfono:
+            </td>
+            <td>
+                <input type="tel" name="tel" id="tel">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Seleccione la hora local en el Reino de Duloc:
+            </td>
+            <td>
+                <input type="time" name="time" id="time">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Seleccione la semana de descanso:
+            </td>
+            <td>
+                <input type="week" name="week" id="week">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Enviar"></input>
+                <input type="reset" value="Limpiar"></input>
+            </td>
+        </tr>
     </table>
-
+</form>
 </body>
 </html>
