@@ -1,0 +1,47 @@
+body{
+    margin: 0%;
+    background-color: papayawhip;
+    
+}
+
+
+.cabecera{
+    color: teal;
+    size: 20px;
+    background-color: rgba(225, 231, 223, 0.623);
+    border: dotted;
+    padding: 2px;
+}
+.titulo{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: rgb(89, 16, 185);
+    text-decoration: green wavy underline;
+    text-align: center;
+}
+
+.contacto{
+    color: darkblue;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0%;
+
+}
+
+table, th, td {
+    border: 2px solid;
+  }
+.radio{
+    color: greenyellow;
+}
+
+
+
+h1 {
+    text-shadow: 2px 2px;
+  }
+
+#ciudades{
+    color: salmon;
+    background-color: honeydew;
+}
